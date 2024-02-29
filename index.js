@@ -1,5 +1,3 @@
-var util = require('util');
-
 module.exports = function tsort(initial) {
   var graph = new Graph();
 
@@ -21,7 +19,7 @@ Graph.prototype.add = function() {
   var self = this;
   var items = [].slice.call(arguments);
 
-  if (items.length == 1 && util.isArray(items[0]))
+  if (items.length == 1 && Array.isArray(items[0]))
     items = items[0];
 
   items.forEach(function(item) {
