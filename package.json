@@ -1,5 +1,5 @@
 {
-  "name": "tsort",
+  "name": "@kbss-cvut/tsort",
   "version": "0.0.1",
   "description": "Topological sort on directed graphs.",
   "main": "index.js",
