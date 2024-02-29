@@ -2,6 +2,7 @@
   "name": "@kbss-cvut/tsort",
   "version": "0.0.1",
   "description": "Topological sort on directed graphs.",
+  "private": false,
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
